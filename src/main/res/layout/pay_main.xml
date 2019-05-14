@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#FFFFFF">
+
+    <RelativeLayout
+        android:id="@+id/rlToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <ImageView
+            android:id="@+id/ivLocationBack"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/back_black"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:onClick="back"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="收银台"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.alipay.sdk.pay.demo.ExternalFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/pay_external"
+        android:layout_below="@+id/rlToolBar"/>
+    <TextView
+        android:id="@+id/tvPay"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/red"
+        android:text="支付宝支付 ¥39.9"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:onClick="payV2"
+        android:textColor="@color/white"
+        />
+
+</RelativeLayout>

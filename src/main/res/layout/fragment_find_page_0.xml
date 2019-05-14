@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/circular_four_0"
+        >
+        <RelativeLayout
+            android:id="@+id/rlFind1"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:visibility="gone"
+            android:background="@drawable/circular_four">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="未添加任何关注"
+                android:textSize="18sp"
+                android:layout_centerInParent="true"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rlFind0"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:background="@drawable/circular_four"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="登录后才能看到关注的内容哦～"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"/>
+            <Button
+                android:id="@+id/btFindLogin"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:text="登录"
+                android:textSize="18sp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/circular_four_red"
+                android:textColor="@color/white"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="180dp"
+            android:text="猜你喜欢TA"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textSize="15sp"
+            android:background="@drawable/circular_four"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="220dp">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </RelativeLayout>
+</RelativeLayout>
