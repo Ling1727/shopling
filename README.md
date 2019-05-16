@@ -1,5 +1,5 @@
 # shopling
-全部贴图在sampledata目录下
+全部贴图在sampledata目录下<br/>
 这里只展示部分贴图
 
 <img src="https://github.com/Ling1727/shopling/blob/master/sampledata/%E6%B3%A8%E5%86%8C.png" width="375" alt="注册"/>  <img src="https://github.com/Ling1727/shopling/blob/master/sampledata/%E7%99%BB%E5%BD%95.jpg" width="375" alt="注册"/>
