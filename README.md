@@ -3,7 +3,7 @@
 这里只展示部分贴图
 
 <img src="https://github.com/Ling1727/shopling/blob/master/sampledata/%E6%B3%A8%E5%86%8C.png" width="375" alt="注册"/>  <img src="https://github.com/Ling1727/shopling/blob/master/sampledata/%E7%99%BB%E5%BD%95.jpg" width="375" alt="注册"/>
-<img src="https://github.com/Ling1727/shopling/blob/master/sampledata/%E7%99%BB%E5%BD%95.jpg" width="375" alt="注册"/>
+<img src="https://github.com/Ling1727/shopling/blob/master/sampledata/%E9%A6%96%E9%A1%B5.jpg" width="375" alt="注册"/>
 <img src="https://github.com/Ling1727/shopling/blob/master/sampledata/%E5%88%86%E7%B1%BB.jpg" width="375" alt="注册"/>
 <img src="https://github.com/Ling1727/shopling/blob/master/sampledata/%E5%8F%91%E7%8E%B0.jpg" width="375" alt="注册"/>
 <img src="https://github.com/Ling1727/shopling/blob/master/sampledata/%E8%B4%AD%E7%89%A9%E8%BD%A6.jpg" width="375" alt="注册"/>
